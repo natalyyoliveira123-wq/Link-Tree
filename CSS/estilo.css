@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap');
+
+body{
+
+
+    /*background-color: black;*/
+    /*background-color: rgb(0,0,0);*/
+    /*background-color: #00000;*/
+        
+    /*background: linear-gradient(90deg, white, pink, purple);*/
+    /*background: radial-gradient(purple, pink);*/
+
+    background-image: url("../recursos/img/fundo.avif");
+
+    background-size: cover;
+
+    /*background-repeat: no-repeat*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-repeat: no-repeat;
+
+
+}
+
+
+img#persona{
+
+    width: 200px;
+    height: 200px;
+
+    border-radius: 100px;
+
+    border-radius: 200px;
+
+        /*width style color*/
+    
+
+    box-shadow: 10px 10px 10px rgba(0,0,0,.3); 
+
+}
+
+.titulos{
+
+    color: rgb(105, 4, 4);
+    text-align: center;
+    margin: 20px;
+
+}
+
+h1{
+
+    font-size: 60px;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0px;
+
+}
+
+h2{
+
+    font-size: 35px;
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 800;
+    font-style: normal;
+
+            /*TOP RIGHT BOTTOM LEFT */
+    margin: 0px 0px 50px 0px;
+
+
+}
+
+figure{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.botao{
+
+       background-color: rgb(216, 189, 209);
+    border: none;
+    font-size: 20px;
+    margin: 10px;
+    padding: 25px;
+    width: 500px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+    transition: 0.2s;
+    cursor: pointer;
+    
+}
+
+.botao:hover{
+
+    background-color: rgb(235, 228, 191);
+    font-size: 21px;
+
+    transform: scale(1.2)
+
+
+}
+
+#rodape{
+
+    display: flex;
+    margin-top: 200px;
+
+
+
+}
+
+.icones{
+
+    margin: 20px;
+
+
+}
+
+svg:hover{
+
+    fill: rgb(97, 153, 226);
+    cursor: pointer;
+    transform: scale(1.2);
+
+
+}
+
+h3{
+   
+    font-size: 20px;
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 60px;
+
+
+}
+
+main{
+    margin-top: 60px;
+
+}
